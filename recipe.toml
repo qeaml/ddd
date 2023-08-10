@@ -1,0 +1,14 @@
+[build]
+src = "src"
+incl = [
+  "include"
+]
+out = "bin"
+obj = "bin/obj"
+cc = "clang"
+
+[build.c]
+std = "c11"
+
+[ddd]
+exe = "ddd"
