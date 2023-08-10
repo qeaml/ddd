@@ -74,16 +74,16 @@ Use the [bip][bip] build system:
 On Windows:
 
 ```batch
-py -3.11 -m bip build --opt
+py -3.11 -m bip build
 ```
 
 On Linux:
 
 ```sh
-py3.11 -m bip build --opt
+py3.11 -m bip build
 ```
 
-To build a distribution ready package use the correct `pkg` script.
+To build a distribution-ready package use the correct `pkg` script.
 
 On Windows:
 
@@ -96,3 +96,6 @@ On Linux:
 ```sh
 ./pkg.sh "1.0.0"
 ```
+
+[releases]: https://github.com/qeaml/ddd/releases
+[bip]: https://github.com/qeaml/bip
