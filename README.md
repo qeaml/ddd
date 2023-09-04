@@ -15,6 +15,20 @@ where <subcommand> can be:
   giberrish - randomly generated word
 ```
 
+## Installation
+
+On Windows, you can simply use [Scoop][scoop]:
+
+```pwsh
+# if you haven't added my bucket yet
+scoop bucket add qeaml https://github.com/qeaml/scoop
+scoop install qeaml/ddd
+```
+
+Alternatively, visit the [Releases][releases] page.
+
+On Linuxes, it is recommended to manually [build](#Build) and install.
+
 ## The Subcommands
 
 ### Y/N
@@ -61,12 +75,6 @@ $ ddd giberrish 3
 xbp
 ```
 
-## Install
-
-Currently, only Windows builds are provided on the [releases][releases] page.
-
-You should add the executable to your PATH.
-
 ## Build
 
 Use the [bip][bip] build system:
@@ -99,3 +107,4 @@ On Linux:
 
 [releases]: https://github.com/qeaml/ddd/releases
 [bip]: https://github.com/qeaml/bip
+[scoop]: https://github.com/qeaml/scoop
